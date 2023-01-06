@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+}
+
+header {
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: gray;
+    height: 600px;
+    text-align: right;
+}
+
+.header-info {
+    position: relative;
+    top: 150px;
+    width: 500px;
+    margin-left: 750PX;
+
+}
+
+.header-title {
+    margin-bottom: 24px;
+    font-weight: 700px;
+    font-size: 65px;
+    color: black;
+}
+
+.allah {
+    color: #284ff8;
+}
+
+.header-description {
+    margin-bottom: 32px;
+    color: #4e4d4d;
+}
+
+.btn-primary {
+    background-color: #284ff8;
+    height: 64px;
+    width: 160px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+}
