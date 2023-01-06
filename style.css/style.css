@@ -110,3 +110,34 @@ header {
     margin-top: 16px;
     color: #747474;
 }
+
+
+/* call now section  */
+.call-now {
+    background-image: url(../images/gradient3.png), url(https://www.komando.com/wp-content/uploads/2020/05/making-phone-call-through-computer.jpg);
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: 10%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.call-info {
+    position: relative;
+    font-size: 25px;
+    width: 450px;
+    font-weight: 700px;
+    top: 30%;
+    margin-left: 50px;
+    color: white;
+}
+
+.btn-call {
+    margin-top: 20px;
+    width: 160px;
+    height: 60px;
+    color: orangered;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+}
