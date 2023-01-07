@@ -1,5 +1,6 @@
 * {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
@@ -13,7 +14,7 @@ header {
 
 .header-info {
     position: relative;
-    top: 150px;
+    top: 100px;
     width: 500px;
     margin-left: 750PX;
 
@@ -21,8 +22,8 @@ header {
 
 .header-title {
     margin-bottom: 24px;
-    font-weight: 700px;
-    font-size: 65px;
+    font-weight: 400px;
+    font-size: 55px;
     color: #ffffff;
 }
 
@@ -116,11 +117,14 @@ header {
     display: flex;
     margin: 10%;
     justify-content: space-between;
+    align-content: space-between;
 }
 
 .programming-category {
     width: 260px;
+
     background-color: whitesmoke;
+    text-align: left;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 5px 5px 15px -15px;
