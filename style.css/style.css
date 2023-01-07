@@ -37,8 +37,8 @@ header {
 
 .btn-primary {
     background-color: #ffffff;
-    height: 64px;
-    width: 160px;
+    height: 50px;
+    width: 150px;
     color: #000000;
     border: none;
     border-radius: 5px;
@@ -134,10 +134,10 @@ header {
 
 .btn-call {
     margin-top: 20px;
-    width: 160px;
-    height: 60px;
+    width: 150px;
+    height: 50px;
     color: #0077ff;
-    font-size: 20px;
+    font-size: 16px;
     border: none;
     border-radius: 5px;
     font-weight: 500;
@@ -146,16 +146,48 @@ header {
 /* footer section  */
 footer {
     background-color: #000000;
-    padding: 10%;
+    padding: 5% 10%;
 }
 
 .footer-section {
     display: flex;
     gap: 330px;
     color: white;
+    width: 900px;
 
 }
 
 .footer-info h1 {
     font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin-bottom: 30px;
+}
+
+.social-icon {
+    display: flex;
+    gap: 15px;
+}
+
+.subscribe input {
+    background-color: #000000;
+    padding: 15px 10px;
+    border: solid 1px #6b6b6b;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.btn-Subscribe {
+    width: 150px;
+    height: 50px;
+    background-color: #0077ff;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: whitesmoke;
 }
