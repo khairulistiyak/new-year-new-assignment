@@ -141,15 +141,37 @@ header {
     color: grey;
 }
 
+.ps {
+    color: #0064d6;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.ai {
+    color: #3d0000;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.pr {
+    color: #0800a7;
+    font-weight: 700;
+    font-size: 30px;
+}
+
 .btn-p {
     width: 100px;
     height: 35px;
-    background-color: #0077ff;
+    background-color: #b6b6b6;
     font-size: 16px;
     border: none;
     border-radius: 5px;
     font-weight: 500;
     color: whitesmoke;
+}
+
+.btn-p-h {
+    background-color: #0077ff;
 }
 
 /* call now section  */
