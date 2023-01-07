@@ -3,7 +3,7 @@
 }
 
 header {
-    background-image: url(../images/banner/banner2.png);
+    background-image: url(../images/banner/banner3.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: gray;
@@ -23,23 +23,23 @@ header {
     margin-bottom: 24px;
     font-weight: 700px;
     font-size: 65px;
-    color: black;
+    color: #ffffff;
 }
 
 .allah {
-    color: #284ff8;
+    color: #ff0404;
 }
 
 .header-description {
     margin-bottom: 32px;
-    color: #4e4d4d;
+    color: #e4e4e4;
 }
 
 .btn-primary {
-    background-color: #284ff8;
+    background-color: #ffffff;
     height: 64px;
     width: 160px;
-    color: white;
+    color: #000000;
     border: none;
     border-radius: 5px;
     font-weight: 600;
@@ -114,7 +114,7 @@ header {
 
 /* call now section  */
 .call-now {
-    background-image: url(../images/gradient3.png), url(https://www.komando.com/wp-content/uploads/2020/05/making-phone-call-through-computer.jpg);
+    background-image: url(../images/gradient1.png), url(https://www.komando.com/wp-content/uploads/2020/05/making-phone-call-through-computer.jpg);
     background-repeat: no-repeat;
     height: 300px;
     margin: 10%;
@@ -136,8 +136,26 @@ header {
     margin-top: 20px;
     width: 160px;
     height: 60px;
-    color: orangered;
+    color: #0077ff;
     font-size: 20px;
     border: none;
     border-radius: 5px;
+    font-weight: 500;
+}
+
+/* footer section  */
+footer {
+    background-color: #000000;
+    padding: 10%;
+}
+
+.footer-section {
+    display: flex;
+    gap: 330px;
+    color: white;
+
+}
+
+.footer-info h1 {
+    font-size: 45px;
 }
